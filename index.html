@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script src= "assets/javascript/game.js"></script>
+</head>
+<body onload="startUp() ">
+    <h1>The Office Game</h1>
+    <img src = "assets/pictures/mscott.jpg">
+    <div>
+        <h2>Guess Your Favorite Office Characters</h2>
+        <p>Select one letter at a time to see if you are guessing your favorite character from the office</p>
+    </div>
+    <div>
+    <input id ="letter" type = "text">
+    <input type="button"  value = "letter" onClick="letter()" />
+    <p id="answer"></p>
+    <p id="counter"></p>
+    <p> you have 10 tries </p>
+    <p> You guess these letter already</p>
+    <p id="wrong"></p>
+    <p id="stat"></p>
+    <div>
+
+</body>
+</html>
